@@ -63,7 +63,7 @@ nav ul {
   border-radius: 10px;
   filter: blur(0);
   object-fit: cover;
-  transition: transform 0.4s ease, filter 0.3s ease, box-shadow 0.3s ease;
+  transition: all 0.4s ease-in;
   will-change: all;
 }
 .gallery .images:hover img:not(:hover) {
@@ -71,7 +71,7 @@ nav ul {
 }
 
 .gallery .images img:hover {
-  transform: scale(1.2) rotate(-3deg);
+  transform: scale(1.1);
   box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
   z-index: 10;
   position: relative;
